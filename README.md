@@ -1,28 +1,64 @@
-# How to Run
+# 🚗 Tesla Model Y Customizer
 
-## 1. Requirements
+An interactive **web application** that allows users to configure a Tesla Model Y.  
+Users can customize exterior color, interior style, wheels, and optional packages.  
+The app dynamically updates the **total price** and **estimated monthly payment**.
 
-Python 3.7+ installed on your system
+---
 
-No external libraries are required — only Python’s standard library.
+## 📂 Project Structure
++ .
++ ├── index.html # Main webpage
++ ├── CSS/
++ │ └── style.css # Custom styling (with Tailwind CSS)
++ ├── JavaScript
++ │ └── main.js # Interactive logic
++ └── images/ # Car images and option thumbnails
 
-## 2. Clone or Download
 
-Download the repository or copy both quiz.py and questions.json into the same folder.
+---
 
-## 3. Run the Quiz
+## ✨ Features
+- 🎨 Select **exterior color** and **interior style**  
+- 🛞 Choose between **standard** and **performance wheels**  
+- 🤖 Add **Full Self-Driving package**  
+- ⚡ Enable **Performance Upgrade package**  
+- 🧩 Add **accessories** (console trays, sunshade, interior liners)  
+- 💰 View **total price** and **estimated monthly payment** in real-time  
 
-`Open a terminal in the project folder and run:`
-```
-python quiz.py
-```
+---
 
-## 4. How to Play
+## ▶️ How to Run
+1. Clone or download this repository.  
+2. Open `index.html` in your web browser.  
+3. Use the sidebar options to customize your car.  
 
-+ The game will randomly select up to 10 questions from questions.json.
+---
 
-+ Each question has four options (A, B, C, D).
+## 🖼️ Demo
+Example layout (after loading `index.html`):
 
-+ Type your answer (A, B, C, or D) and press Enter.
+- Exterior & Interior preview images  
+- Sidebar with customization options  
+- Dynamic price & payment breakdown  
 
-+ At the end, your total score and a performance message will be displayed.
+---
+
+## 🛠️ Technologies Used
+- **HTML5** – Structure  
+- **Tailwind CSS** – Styling (via CDN)  
+- **JavaScript (ES6)** – Interactivity & price calculations  
+- **Font Awesome** – Icons  
+
+---
+
+## 📜 License
+This project is licensed under the MIT License – feel free to use, modify, and share.
+
+---
+
+## 🚀 Future Improvements
+- Add more **exterior/interior options**  
+- Allow users to **save their configuration**  
+- Deploy as a **live demo** using GitHub Pages  
+
